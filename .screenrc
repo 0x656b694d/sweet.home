@@ -1,0 +1,6 @@
+startup_message off
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{rk}%H %{gk}%c %{yk}%M%d %{wk}%?%-Lw%?%{bw}%n*%f%t%?(%u)%?%{wk}%?%+Lw%?"
+defscrollback 99999
+

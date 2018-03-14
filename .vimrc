@@ -1,0 +1,10 @@
+syntax on
+set autoindent
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set showmatch
+set incsearch
+set pastetoggle=<F2>
+set expandtab
+set backspace=indent,eol,start
