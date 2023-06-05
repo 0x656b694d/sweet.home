@@ -1,0 +1,13 @@
+name: test-chmod
+on: dispatch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "content" > test.file
+        ls -la test.file
+        chmod 0000 test.file
+        ls -la test.file
+        cat test.file
