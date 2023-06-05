@@ -1,5 +1,5 @@
 name: test-chmod
-on: dispatch
+on: workflow_dispatch
 
 jobs:
   test:
